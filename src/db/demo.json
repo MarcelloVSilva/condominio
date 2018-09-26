@@ -1,0 +1,218 @@
+{
+    "condominios": {
+        "id_condominioTrinidad": {
+            "dados": {
+                "nome": "Residencial Trinidad",
+                "logradouro": {
+                    "uf": "GO",
+                    "cidade": "Goiânia",
+                    "rua": "avenida flemington",
+                    "cep": "74310290"
+                },
+                "telefone": "(62)39582165",
+                "responsavel": "uid_edimar"
+            },
+            "torres": {
+                "h": {
+                    "101": {
+                        "moradores": [
+                            "marcellovcs@gmail.com"
+                        ]
+                    },
+                    "102": {},
+                    "103": {},
+                    "104": {},
+                    "105": {},
+                    "106": {
+                        "moradores": [
+                            "uid_edimar"
+                        ]
+                    }
+                },
+                "f": {
+                    "101": {},
+                    "102": {
+                        "moradores": [
+                            "uid_jose"
+                        ]
+                    },
+                    "103": {},
+                    "104": {},
+                    "105": {},
+                    "106": {}
+                },
+                "r": {
+                    "101": {},
+                    "102": {},
+                    "103": {
+                        "moradores": [
+                            "uid_luiz"
+                        ]
+                    },
+                    "104": {},
+                    "105": {},
+                    "106": {}
+                }
+            },
+            "areaComum": {
+                "id_churrasqueiraDaPiscina": {
+                    "nome": "Churrasqueira da piscina",
+                    "agenda": {
+                        "1546221600000": "uid_jose"
+                    },
+                    "solicitacoesDeReserva": [
+                        {
+                            "momentoDaSolicitacao": 1538535600000,
+                            "data": 1546308000000,
+                            "morador": "uid_luiz"
+                        }
+                    ]
+                },
+                "id_salaoDeFestas1": {
+                    "nome": "Salão de festas 1",
+                    "agenda": {
+                        "1556679600000": "uid_luiz",
+                        "1567825200000": "uid_jose"
+                    },
+                    "solicitacoesDeReserva": [
+                        {
+                            "momentoDaSolicitacao": 1536335197000,
+                            "data": 1556679600000,
+                            "morador": "uid_jose"
+                        }
+                    ]
+                }
+            }
+        },
+        "id_condominioLygia": {
+            "dados": {
+                "nome": "Residencial D'lygia",
+                "logradouro": {
+                    "uf": "GO",
+                    "cidade": "Goiânia",
+                    "rua": "R. Rui Brasil Cavalcante",
+                    "cep": "74140140"
+                },
+                "telefone": "(62)39582165",
+                "responsavel": "sindico@email.com"
+            },
+            "torres": {
+                "a": {
+                    "101": {
+                        "moradores": [
+                            "uid_thiago"
+                        ]
+                    },
+                    "102": {},
+                    "103": {},
+                    "104": {},
+                    "105": {},
+                    "106": {
+                        "moradores": [
+                            "uid_nilza"
+                        ]
+                    }
+                }
+            },
+            "areaComum": {}
+        }
+    },
+    "usuarios": {
+        "uid_marcello": {
+            "perfil": {
+                "nome": "Marcello Victor Costa e Silva",
+                "email": "marcellovcs@gmail.com",
+                "documento": "04138869131",
+                "fone": "62982737091"
+            },
+            "condominios": {
+                "id_condominioTrinidad": {
+                    "torre": "h",
+                    "apto": "101",
+                    "perfil": "proprietario",
+                    "status": "pendente"
+                }
+            }
+        },
+        "uid_jose": {
+            "perfil": {
+                "nome": "Jose Lopes",
+                "email": "joselopes@gmail.com",
+                "documento": "04134129131",
+                "fone": "62123737091"
+            },
+            "condominios": {
+                "id_condominioTrinidad": {
+                    "torre": "f",
+                    "apto": "102",
+                    "perfil": "proprietario",
+                    "status": "ativo"
+                }
+            }
+        },
+        "uid_luiz": {
+            "perfil": {
+                "nome": "Luiz Euzebio",
+                "email": "luizeuzebio@gmail.com",
+                "documento": "04159869131",
+                "fone": "6265427091"
+            },
+            "condominios": {
+                "id_condominioTrinidad": {
+                    "torre": "r",
+                    "apto": "103",
+                    "perfil": "proprietario",
+                    "status": "ativo"
+                }
+            }
+        },
+        "uid_thiago": {
+            "perfil": {
+                "nome": "Thiago Hermano",
+                "email": "thiagohermano@gmail.com",
+                "documento": "04139879131",
+                "fone": "62982123491"
+            },
+            "condominios": {
+                "id_condominioLygia": {
+                    "torre": "a",
+                    "apto": "101",
+                    "perfil": "proprietario",
+                    "status": "ativo"
+                }
+            }
+        },
+        "uid_edimar": {
+            "perfil": {
+                "nome": "Edimar",
+                "email": "edimar@gmail.com",
+                "documento": "0419658131",
+                "fone": "62654854091"
+            },
+            "condominios": {
+                "id_condominioTrinidad": {
+                    "torre": "h",
+                    "apto": "106",
+                    "perfil": "sindico",
+                    "status": "ativo"
+                }
+            }
+        },
+        "uid_nilza": {
+            "perfil": {
+                "nome": "Nilza",
+                "email": "nilza@gmail.com",
+                "documento": "0485498131",
+                "fone": "62658424091"
+            },
+            "condominios": {
+                "id_condominioLygia": {
+                    "torre": "a",
+                    "apto": "106",
+                    "perfil": "sindico",
+                    "status": "ativo"
+                }
+            }
+        }
+    }
+}
