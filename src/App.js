@@ -1,8 +1,7 @@
-import { BrowserRouter, Link, Route, Router } from "react-router-dom";
+import { Link } from "react-router-dom";
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import App2 from "./App2"
 
 export default class App extends Component {
   render() {

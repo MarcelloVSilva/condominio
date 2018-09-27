@@ -1,4 +1,4 @@
-import { createStore, combineReducers, applyMiddleware, compose } from 'redux';
+import { createStore, combineReducers } from 'redux';
 import authReducer from '../reducers/auth';
 
 export default () => {
