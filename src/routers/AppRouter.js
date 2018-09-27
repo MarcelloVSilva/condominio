@@ -12,7 +12,7 @@ const AppRouter = () => (
   <Router history={history}>
     <div>
       <Switch>
-        <PublicRoute path="/app" component={App} exact={true} />
+        <PublicRoute path="/" component={App} exact={true} />
         <PublicRoute path="/app2" component={App2} exact={true} />
       </Switch>
     </div>
