@@ -3,7 +3,6 @@ import { Provider } from 'react-redux';
 import ReactDOM from 'react-dom';
 import configureStore from './store/configureStore';
 import './index.css';
-// import App from './App';
 import AppRouter from "./routers/AppRouter"
 // import registerServiceWorker from './registerServiceWorker';
 
